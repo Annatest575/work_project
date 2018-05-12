@@ -139,6 +139,21 @@ background: linear-gradient(to right, rgba(114,114,114,0.8) 0%,rgba(114,114,114,
   width: 100%;
   margin-top: 13px;
 }
+.widget {
+  float: left;
+  padding: 10px 15px;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #eeeeee;
+  margin-top: 26px;
+
+}
+.widget h3 {
+  width: 100%;
+  border-bottom: solid 1px #333333;
+  margin: 0;
+  padding: 15px 0;
+}
 .footer-top .widget {
   width: calc(25% - 20px);
   margin: 16px 16px 5px 0;
@@ -154,28 +169,12 @@ background: linear-gradient(to right, rgba(114,114,114,0.8) 0%,rgba(114,114,114,
   width: calc(100% - 32px);
   margin: 24px 16px 16px 16px;
 }
-.footer-bottom .widget h3 {
+.footer-bottom-widget5 h3 {
   margin: 0 auto;
   max-width: 300px;
 }
 .footer .widget{
   color: #eeeeee;
-}
-
-.widget {
-  float: left;
-  padding: 10px 15px;
-  border-radius: 7px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #eeeeee;
-  margin-top: 26px;
-
-}
-.widget h3 {
-  width: 100%;
-  border-bottom: solid 1px #333333;
-  margin: 0;
-  padding: 15px 0;
 }
 
 /*footer end*/
